@@ -43,6 +43,7 @@ console.log('My favorite albums are: ', collection);
 function showCollection () {
   for (let i = 0; i < collection.length; i++) {
     console.log(collection[i]);
+    console.log(`${collection[i]['title']} by ${collection[i]['artist']}, published in ${collection[i]['yearPublished']}.`);
   }
 }
 console.log(showCollection());
