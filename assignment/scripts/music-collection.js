@@ -40,10 +40,9 @@ function addToCollection (title, artist, yearPublished) {
 
 console.log('My favorite albums are: ', collection);
 
-// function showCollection ([]) {
-//   console.log(showCollection());
-// }
-
-function findByArtist (artist) {
-  
+function showCollection () {
+  for (let i = 0; i < collection.length; i++) {
+    console.log(collection[i]);
+  }
 }
+console.log(showCollection());
