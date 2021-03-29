@@ -47,3 +47,12 @@ function showCollection () {
   }
 }
 console.log(showCollection());
+
+function findByArtist(artist) {
+  let findArtistResults = [];
+  // I'm not sure if I am supposed to create a new variable for the empty array or not.
+  for (let i = 0; i < collection.length; i++) {
+
+  } return findArtistResults;
+
+}
